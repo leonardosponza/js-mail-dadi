@@ -8,11 +8,11 @@ document.getElementById('user').innerHTML += Utente;
 
 if (Computer > Utente) {
     risultato = 'Computer vince!';
-    document.getElementById('risultato').innerHTML = risultato;
+    document.getElementById('pc').innerHTML = risultato;
 
 } else if (Utente > Computer) {
     risultato = 'Hai vinto!'
-    document.getElementById('risultato').innerHTML = risultato;
+    document.getElementById('user').innerHTML = risultato;
 
 }
 
