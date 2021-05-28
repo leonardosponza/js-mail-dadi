@@ -1,3 +1,5 @@
-for(var i = 0; i <= 10; i++){
-    console.log('iterazione',i * 3);
+for (var i = 10; i <= 30; i++){
+    if( i % 3 == 0){
+        console.log(i);
+    }
 }
